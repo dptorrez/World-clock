@@ -1,26 +1,33 @@
 body {
-    background-color: rgb(54, 6, 84);
     font-family: "Chakra Petch", sans-serif;
+    background-color: rgb(10, 21, 8);
 }
 h1 {
     text-align: center;
     font-family: "Chakra Petch", sans-serif;
     font-size: 40px;
+    color: rgb(243, 228, 211);
+}
+.clock {
+    width: 40px;
+    vertical-align: middle;
 }
 .encapsule {
     max-width: 600px;
     margin: 60px auto;
     padding: 60px;
-    box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.4);
-    background-color: rgb(241, 221, 196);
+    box-shadow: 4px 3px 8px rgba(62, 10, 10, 0.523);
     border-radius: 8px;
+    background-image: url("../images/globe.jpeg");
+    background-size: cover;
 }
 .cities {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    border-bottom: 1px dotted grey;
+    border-bottom: 1px dotted rgb(209, 205, 205);
     padding: 20px 0;
+    color: rgb(244, 236, 227);
 }
 .cities:last-child {
     border: none;
@@ -30,7 +37,7 @@ h2 {
    font-size: 28px;
 }
 .day {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .time {
  font-size: 40px;
@@ -47,8 +54,10 @@ select {
     padding: 10px; 
     border-radius: 8px;
     font-size: 15px;
+    background-color: rgb(221, 216, 210);
 }
 footer {
     text-align: center;
     font-size: 15px;
+    color: rgb(202, 213, 223);
 }
